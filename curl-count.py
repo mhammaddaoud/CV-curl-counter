@@ -3,7 +3,7 @@ import mediapipe as mp
 import numpy as np
 import math
 
-count = 1
+count = 1  #starting count with 1 hard coded based on used video
 elbow = []
 shoulder = []
 wrist = []
