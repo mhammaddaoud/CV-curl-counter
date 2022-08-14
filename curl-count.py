@@ -94,6 +94,7 @@ while (cap.isOpened()):
 
     #resize input video
     img_resized = resized(frame, 0.6)
+    cv2.imshow("img", img_resized)
     if cv2.waitKey(1) & 0xFF == 27:
         break
 
